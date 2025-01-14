@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: nginxpod
+    labels:
+        app: myapp
+spec:
+   containers:
+          - name: nginxwala
+            image: nginx
+            ports:
+              - containerPort: 80
