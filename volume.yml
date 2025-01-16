@@ -31,7 +31,7 @@ spec:
           ports:
             - containerPort: 90
           volumeMounts:
-            - mountPath: "/usr/share/nginx/html"
+            - mountPath: "/var/www/html"
               name: myvolume
 
       volumes:
